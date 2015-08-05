@@ -1,0 +1,40 @@
+.sidebar {
+  position: fixed;
+  padding: 10px;
+  top: 0; left: 0;
+  height: 100%;
+  width: 200px;
+  border-right: 1px solid black;
+  background-color: #FFF5EB;
+
+  #sidebar-pic {
+
+    img {
+      max-height: 180px;
+      max-width: 100%;
+      border-radius: 90px;
+    }
+  }
+
+  ul {
+    list-style: none;
+
+    li {
+      margin-top: 60px;
+
+      a {
+        font-size: 20px;
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .sidebar {
+    display: none;
+  }
+
+  body {
+    margin-left: 0px;
+  }
+}
