@@ -1,17 +1,17 @@
 #projects {
   background-color: #FFE0C2;
   padding: 30px;
-
-  img {
+}
+  #projects img {
     border-radius: 20px;
   }
 
-  a {
+  #projects a {
     text-align: center;
   }
 
-  p {
+  #projects p {
     text-align: center;
     font-weight: bold;
   }
-}
+

@@ -1,0 +1,8 @@
+@import "../bower_components/bootstrap/dist/css/bootstrap.css";
+@import "font-awesome/scss/font-awesome";
+@import "partials/content.css";
+@import "partials/sidebar.css";
+@import "partials/about.css";
+@import "partials/projects.css";
+@import "partials/contact.css";
+@import "partials/top-image.css";

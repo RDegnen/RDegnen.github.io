@@ -6,28 +6,25 @@
   width: 200px;
   border-right: 1px solid black;
   background-color: #FFF5EB;
-
-  #sidebar-pic {
-
-    img {
-      max-height: 180px;
-      max-width: 100%;
-      border-radius: 90px;
-    }
+}
+  #sidebar-pic img {
+    max-height: 180px;
+    max-width: 100%;
+    border-radius: 90px;
   }
 
-  ul {
+  .sidebar ul {
     list-style: none;
-
-    li {
+  }
+    .sidebar ul li {
       margin-top: 60px;
-
-      a {
+    }
+      .sidebar ul li a {
         font-size: 20px;
       }
-    }
-  }
-}
+
+
+
 
 @media (max-width: 768px) {
   .sidebar {

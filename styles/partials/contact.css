@@ -2,15 +2,15 @@
   margin-bottom: -20px;
   padding: 30px;
   background-color: #FFB870;
-
-  ul {
+}
+  #contact ul {
     list-style: none;
     margin-top: 100px;
     text-align: center;
-
-    li {
+  }
+    #contact ul li {
       display: inline;
       margin: 0 10px 0 10px;
     }
-  }
-}
+
+
