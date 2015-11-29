@@ -6,3 +6,18 @@
 @import "partials/projects.css";
 @import "partials/contact.css";
 @import "partials/top-image.css";
+
+a {
+  color: black;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:focus {
+  text-decoration: none;
+}
