@@ -1,15 +1,7 @@
 @import "../bower_components/bootstrap/dist/css/bootstrap.css";
 @import "font-awesome/scss/font-awesome";
-@import "partials/content.css";
-@import "partials/sidebar.css";
-@import "partials/about.css";
-@import "partials/projects.css";
-@import "partials/contact.css";
-@import "partials/top-image.css";
 
 body {
-  padding-top: 20px;
-  padding-bottom: 20px;
   margin-left: 200px;
 }
 
@@ -35,7 +27,6 @@ a:focus {
   height: 100%;
   width: 200px;
   border-right: 1px solid black;
-  background-color: #FFF5EB;
 }
   #sidebar-pic img {
     max-height: 180px;
@@ -67,11 +58,10 @@ a:focus {
 }
 
 #projects {
-  background-color: #FFE0C2;
-  padding: 30px;
+  border-bottom: 1px solid black;
 }
   #projects img {
-    border-radius: 20px;
+    /*border: 1px solid black;*/
   }
 
   #projects a {
@@ -84,9 +74,7 @@ a:focus {
   }
 
 #contact {
-  margin-bottom: -20px;
-  padding: 30px;
-  background-color: #FFB870;
+  padding: 0 30px 30px 30px;
 }
   #contact ul {
     list-style: none;
@@ -97,4 +85,36 @@ a:focus {
       display: inline;
       margin: 0 10px 0 10px;
     }
+
+#about {
+  padding: 0 30px 30px 30px;
+}
+
+#skills {
+  padding: 0 30px 30px 30px;
+}
+
+#skills-list {
+  list-style: none;
+  text-align: center;
+  padding: 0;
+}
+
+#skills-list li {
+  display: inline-block;
+  font-size: 20px;
+  padding: 0 20px;
+}
+
+#skills-list li:before {
+  content: '-';
+}
+
+#skills-list li:after {
+  content: '-';
+}
+
+.wk-img-div {
+  padding: 0;
+}
 

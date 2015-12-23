@@ -30,43 +30,69 @@
         <img src="images/my-pic.jpg">
       </div>
       <ul>
-        <li><a href="#projects">Projects</a></li>
+        <li><a href="#projects">Work</a></li>
+        <li><a href="#about">About/Skills</a></li>
         <li><a href="#contact">Contact</a></li>
       </ul>
     </div>
 
     <div id="projects" class="container-fluid">
-      <h1>Projects</h1>
       <div class="row">
-        <div class="col-md-6">
+        <div class="col-md-6 wk-img-div">
           <img src="images/reddpics.png" class="img-responsive">
-          <a target="_blank" href="http://rdegnen.github.io/Redd_Pic_2_Frontend/#/"><h2>Ross' Reddit Pics</h2></a>
-          <p>Built in Angular with orignally a Rails backend but now redone in Node! And accessing the Imgur Api. The Node server is hosted on Heroku so give it a few seconds to turn on if it is asleep</p>
+          <!-- <a target="_blank" href="http://rdegnen.github.io/Redd_Pic_2_Frontend/#/"><h2>Ross' Reddit Pics</h2></a>
+          <p>Built in Angular with orignally a Rails backend but now redone in Node! And accessing the Imgur Api. The Node server is hosted on Heroku so give it a few seconds to turn on if it is asleep</p> -->
         </div>
-        <div class="col-md-6">
+        <div class="col-md-6 wk-img-div">
           <img src="images/bob.png" class="img-responsive">
-          <a target="_blank" href="http://tys1019.github.io/bobs_burger_app/"><h2>Bob's Burgers Ecommerce Site</h2></a>
-          <p>Team project with Susan Tran and Daniel Tyson. Built with Javascript, JQuery, and Backbone Router on frontend, and a Rails backend</p>
+          <!-- <a target="_blank" href="http://tys1019.github.io/bobs_burger_app/"><h2>Bob's Burgers Ecommerce Site</h2></a>
+          <p>Team project with Susan Tran and Daniel Tyson. Built with Javascript, JQuery, and Backbone Router on frontend, and a Rails backend</p> -->
         </div>
       </div>
       <div class="row">
-        <div class="col-md-6">
+        <div class="col-md-6 wk-img-div">
           <img src="images/routeTracker.png" class="img-responsive">
-          <a target="_blank" href="http://rdegnen.github.io/Route-Tracker/"><h2>Route Tracker</h2></a>
-          <p>App that lets you plot a line on a Google map and tracks the distance. Built using Backbone, Javascript, JQuery, and the Google Maps Javascript Api</p>
+          <!-- <a target="_blank" href="http://rdegnen.github.io/Route-Tracker/"><h2>Route Tracker</h2></a>
+          <p>App that lets you plot a line on a Google map and tracks the distance. Built using Backbone, Javascript, JQuery, and the Google Maps Javascript Api</p> -->
         </div>
-        <div class="col-md-6">
+        <div class="col-md-6 wk-img-div">
           <img src="images/backfire.png" class="img-responsive">
-          <a target="_blank" href="http://rdegnen.github.io/backfire/"><h2>BackFire Todo</h2></a>
-          <p>Simple todo app made with Backbone, Javascript, JQuery, and using Firebase as the backend</p>
+          <!-- <a target="_blank" href="http://rdegnen.github.io/backfire/"><h2>BackFire Todo</h2></a>
+          <p>Simple todo app made with Backbone, Javascript, JQuery, and using Firebase as the backend</p> -->
         </div>
       </div>
+    </div>
+
+    <div id="about">
+      <h1>About</h1>
+      <h3><a href="images/R.Degnen_Resume_copy.pdf">Resume</a></h3>
+      <p>"Hello there! I am a web developer who graduated from General Assembly's WDI bootcamp, where I worked with Rails, Javascript, JQuery, Angular, and numerous other languages and frameworks. I love learning new technologies and sharpening my skills in ones I already know! When I'm not coding, I love working out, hiking, reading, and drinking coffee.. or beer. I am also a twin!"</p>
+    </div>
+    <div id="skills">
+      <h1>Skills</h1>
+      <ul id="skills-list">
+        <li>Javascript</li>
+        <li>jQuery</li>
+        <li>BackboneJS</li>
+        <li>Node</li>
+        <li>ExpressJS</li>
+        <li>CSS</li>
+        <li>HTML5</li>
+        <li>Sass</li>
+        <li>Git</li>
+        <li>AJAX</li>
+        <li>AngularJS</li>
+        <li>Twitter Bootstrap</li>
+        <li>Ruby On Rails</li>
+        <li>PostgreSQL</li>
+        <li>MongoDB</li>
+        <li>Firebase</li>
+      </ul>
     </div>
 
     <div id="contact">
       <h1>Contact</h1>
       <h3>Email me at: <a href="mailto:rdegnen@gmail.com">rdegnen@gmail.com</a></h3>
-      <h3><a href="images/R.Degnen_Resume_copy.pdf">Resume</a></h3>
       <ul>
         <li>
           <a target="_blank" href="https://github.com/RDegnen">
@@ -103,16 +129,6 @@
     <script src="bower_components/bootstrap-sass-official/assets/javascripts/bootstrap/popover.js"></script>
     <!-- endbower -->
     <!-- endbuild -->
-
-    <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
-    <script>
-      (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
-      function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
-      e=o.createElement(i);r=o.getElementsByTagName(i)[0];
-      e.src='//www.google-analytics.com/analytics.js';
-      r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
-      ga('create','UA-XXXXX-X');ga('send','pageview');
-    </script>
 
         <!-- build:js({app,.tmp}) scripts/main.js -->
         <script src="scripts/main.js"></script>
