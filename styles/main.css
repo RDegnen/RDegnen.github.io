@@ -39,6 +39,11 @@ a:focus {
   width: 200px;
   border-right: 1px solid black;
 }
+
+  #sidebar-pic {
+    text-align: center;
+  }
+
   #sidebar-pic img {
     max-height: 180px;
     max-width: 100%;
@@ -55,9 +60,6 @@ a:focus {
         font-size: 20px;
         font-family: 'Unica One', cursive;
       }
-
-
-
 
 @media (max-width: 768px) {
   .sidebar {
@@ -79,7 +81,7 @@ a:focus {
 
   #projects p {
     text-align: center;
-    font-weight: bold;
+    font-size: 16px;
   }
 
 #contact {
@@ -122,6 +124,18 @@ a:focus {
   padding: 0 30px 30px 30px;
 }
 
+@media (max-width: 440px) {
+  #about {
+    padding: 0 0 30px 0;
+  }
+  #skills {
+    padding: 0 0 30px 0;
+  }
+  #contact {
+    padding: 0 0 30px 0;
+  }
+}
+
 #skills-list {
   list-style: none;
   text-align: center;
@@ -157,4 +171,8 @@ a:focus {
 
 .wk-img-div:hover > .wk-info-div {
   display: block;
+}
+
+.sub-head-p {
+  font-size: 20px;
 }
