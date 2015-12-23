@@ -1,8 +1,15 @@
 @import "../bower_components/bootstrap/dist/css/bootstrap.css";
 @import "font-awesome/scss/font-awesome";
+@import url(https://fonts.googleapis.com/css?family=Unica+One);
+@import url(https://fonts.googleapis.com/css?family=Vollkorn);
 
 body {
   margin-left: 200px;
+  font-family: 'Vollkorn', serif;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-family: 'Unica One', cursive;
 }
 
 a {
@@ -88,6 +95,25 @@ a:focus {
 
 #about {
   padding: 0 30px 30px 30px;
+}
+
+#about > div {
+  margin: 0 auto;
+  width: 700px;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+}
+
+#about > div p {
+  font-size: 16px;
+  margin: 10px 0;
+}
+
+@media (max-width: 960px) {
+  #about > div {
+    margin: 0;
+    width: 100%;
+  }
 }
 
 #skills {
